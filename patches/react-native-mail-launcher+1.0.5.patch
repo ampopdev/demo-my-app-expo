@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-mail-launcher/android/build.gradle b/node_modules/react-native-mail-launcher/android/build.gradle
+index 651ab09..010d3a7 100644
+--- a/node_modules/react-native-mail-launcher/android/build.gradle
++++ b/node_modules/react-native-mail-launcher/android/build.gradle
+@@ -13,7 +13,7 @@ buildscript {
+ apply plugin: 'com.android.library'
+ 
+ android {
+-    compileSdkVersion 26
++    compileSdkVersion 33
+     buildToolsVersion "28.0.2"
+ 
+     defaultConfig {

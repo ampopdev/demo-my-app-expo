@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["ES2018"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "removeComments": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": false,
+    "plugins": [
+      {
+        "name": "typescript-strict-plugin"
+      }
+    ],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "*.config.js", "*.config.*.js"],
+  "include": ["index.js", "src", "jest", "decls/global.d.ts"],
+  "typeRoots": ["./src/types"],
+  "extends": "expo/tsconfig.base"
+}

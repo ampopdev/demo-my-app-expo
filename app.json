@@ -1,0 +1,13 @@
+{
+  "name": "MyApp",
+  "displayName": "MyApp",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6852207647186876~6268964991",
+    "ios_app_id": "ca-app-pub-6852207647186876~1042357340",
+    "user_tracking_usage_description": "MyApp can deliver personalized ads to you.",
+    "delay_app_measurement_init": true
+  },
+  "android": {
+    "googleServicesFile": "./google-services.json"
+  }
+}

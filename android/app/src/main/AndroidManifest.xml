@@ -34,11 +34,5 @@
           <!-- <data android:scheme="https" android:host="www.myapp.com" /> -->
         </intent-filter>
       </activity>
-      <meta-data
-        android:name="expo.modules.notifications.default_notification_icon"
-        android:resource="@drawable/notification" />
-      <meta-data
-        android:name="expo.modules.notifications.default_notification_color"
-        android:resource="@color/colorAccent" />
     </application>
 </manifest>

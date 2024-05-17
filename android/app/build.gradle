@@ -80,6 +80,9 @@ android {
     compileSdk rootProject.ext.compileSdkVersion
 
     namespace "com.myapp"
+    buildFeatures {
+        buildConfig = true
+    }
     defaultConfig {
         applicationId "com.myapp"
         minSdkVersion rootProject.ext.minSdkVersion
